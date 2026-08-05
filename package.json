@@ -9,9 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/pdf-parse": "^1.1.5",
     "next": "16.2.12",
+    "pdf-parse": "^2.4.5",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-dropzone": "^19.1.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
