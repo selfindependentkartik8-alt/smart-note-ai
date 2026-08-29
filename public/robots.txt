@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smart-note-btvps5422-krish-aiw-orks.vercel.app/sitemap.xml
