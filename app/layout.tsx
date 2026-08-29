@@ -2,26 +2,24 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    "https://smart-note-btvps5422-krish-aiw-orks.vercel.app"
-  ),
+  metadataBase: new URL("https://smartnotes.krishaiworks.com"),
 
   title: {
-    default: "Smart Notes | AI Note Maker | KrishAIWorks",
-    template: "%s | KrishAIWorks",
+    default: "Smart Notes | AI-Powered Notes by KrishAIWorks",
+    template: "%s | Smart Notes",
   },
 
   description:
-    "Smart Notes is an AI-powered note-taking and productivity tool by KrishAIWorks. Create, organize and improve your notes faster.",
+    "Smart Notes helps you create, organize and manage notes with an easy and intelligent note-taking experience by KrishAIWorks.",
 
   keywords: [
     "Smart Notes",
     "AI notes",
-    "AI note maker",
-    "smart note taking",
-    "AI productivity tool",
     "online notes",
-    "note taking tool",
+    "note taking app",
+    "smart note taking",
+    "digital notes",
+    "productivity tool",
     "KrishAIWorks",
   ],
 
@@ -36,37 +34,35 @@ export const metadata: Metadata = {
   publisher: "KrishAIWorks",
 
   applicationName: "Smart Notes",
-
-  category: "technology",
+  category: "productivity",
 
   alternates: {
-    canonical:
-      "https://smart-note-btvps5422-krish-aiw-orks.vercel.app/",
+    canonical: "https://smartnotes.krishaiworks.com",
   },
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://smart-note-btvps5422-krish-aiw-orks.vercel.app/",
-    siteName: "KrishAIWorks",
-    title: "Smart Notes | AI Note Maker | KrishAIWorks",
+    url: "https://smartnotes.krishaiworks.com",
+    siteName: "Smart Notes",
+    title: "Smart Notes | AI-Powered Notes by KrishAIWorks",
     description:
-      "Create, organize and improve your notes with Smart Notes, an AI-powered productivity tool by KrishAIWorks.",
+      "Create, organize and manage your notes with Smart Notes by KrishAIWorks.",
     images: [
       {
         url: "/logo.png",
         width: 512,
         height: 512,
-        alt: "Smart Notes - KrishAIWorks",
+        alt: "Smart Notes",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Smart Notes | AI Note Maker | KrishAIWorks",
+    title: "Smart Notes | AI-Powered Notes",
     description:
-      "An AI-powered note-taking and productivity tool by KrishAIWorks.",
+      "Create, organize and manage your notes with Smart Notes by KrishAIWorks.",
     images: ["/logo.png"],
   },
 
